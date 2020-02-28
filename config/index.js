@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const {
   DB_PW,
-  DB_NAME, 
+  DB_NAME = 'gridfsuploads', 
   PORT = 8000
 } = process.env
 
